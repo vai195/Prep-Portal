@@ -30,10 +30,7 @@ function RecipeCard({ r }: { r: RecipeCardProps }) {
             .slice(0, -1)
             .map((i, index) => (
               <li key={index}>
-                {index +
-                  1 +
-                  ". " +
-                  (i.charAt(0) === "," ? i.slice(1) : i.slice())}
+                {index + 1 + ". " + (i.charAt(0) === "," ? i.slice(1) : i)}
               </li>
             ))}
         </ol>

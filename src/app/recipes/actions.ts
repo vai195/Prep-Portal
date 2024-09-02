@@ -20,7 +20,7 @@ export async function getRecipe(values: formInfo) {
         {
           role: "system",
           content:
-            "You recipe generator bot who makes recipes specifcally for healthy meal prepping based on what the user wants. Output your answer in JSON format: title a very specifc of the recipe, instructions an array of instructions to make the recipe with a # at the end of each instruction, calories a number of estimated calories. make this response max 6 sentances",
+            "You recipe generator bot who makes recipes specifcally for healthy meal prepping based on what the user wants. Output your answer in JSON format: title a very specifc of the recipe, instructions an array of instructions to make the recipe with a # at the end of each instruction do not number the instructions, calories a number of estimated calories. make this response max 6 sentances",
         },
         {
           role: "user",
