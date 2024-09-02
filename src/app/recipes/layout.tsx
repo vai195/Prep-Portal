@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 export const metadata: Metadata = {
   title: "Prep Portal - Recipes",
   description:
-    "Welcome to Prep Portal AI an AI tool to help user create easy healthy meal prepping recipes using AI. This is the home page where all generated recipes are displayed.",
+    "Welcome to Prep Portal AI an AI tool to help user create easy healthy meal prepping recipes using AI. This is the home page where all generated recipes are displayed. ",
 };
 export default function RecipeLayout({
   children,

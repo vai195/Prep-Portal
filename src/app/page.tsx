@@ -24,7 +24,7 @@ export default function Home() {
       <Button size='lg' asChild>
         <Link href='/recipes'>Get Started</Link>
       </Button>
-      <Link href='https://github.com/vai195'>
+      <Link href='https://github.com/vai195/Prep-Portal'>
         <Github />
       </Link>
     </main>
